@@ -22,4 +22,11 @@ Restart=always
 
 [Install]
 WantedBy=multi-user.target
+
+
+cat es_snapshot_auth.txt
+username:password
+
+cat es_snapshot.txt
+elasticsearch clustername,elasticsearch api url,APIusername,APIpassword
 ```
