@@ -24,9 +24,10 @@ Restart=always
 WantedBy=multi-user.target
 
 
-cat es_snapshot_auth.txt
+
+cat es_snapshot_auth.txt (auth for exporter)
 username:password
 
-cat es_snapshot.txt
+cat es_snapshot.txt (elasticsearch API auth)
 elasticsearch clustername,elasticsearch api url,APIusername,APIpassword
 ```
